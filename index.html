@@ -30,7 +30,15 @@
 
 <div class="navbar__s3">
 <P>Courses</P>
-<p>My learning</p>
+<!-- <p>My learning</p> -->
+<div class="mylearning"> 
+<P>My learning</P>
+
+<div class="mylearning__popup">
+    <p>You didn't purphase anything yet</p>
+</div>
+</div>
+
 <i class="fa-solid fa-cart-shopping"></i>
 <i class="fa-solid fa-bell"></i>
 <i class="fa-regular fa-address-book"></i>
@@ -56,7 +64,11 @@
     
 <!--Sale image-->
 <div class="sale image">
-    <img src="./Udemy-clone/images/sale image.jpg"alt=sale image>
+    <img src="./images/sale image.jpg"alt=sale image>
+    <div class="sale-image__offer">
+        <h2>Udemy flash offer! 24 hours to save</h2>
+        <p>Get the top courses for 499 only,Just one day to save but lifetime to learn</p>
+    </div>
 </div>
 
 <!--Recommended-->
@@ -65,7 +77,7 @@
 <p>Pick what you want</p>
 <div class="recommended__container">
     <div class="course-card">
-        <img src="./Udemy-clone/images/sale image1.avif" alt="sale image1">
+        <img src="./images/sale image1.avif" alt="sale image1">
         <p>python for beginners</p>
          <p>col mark</p>
     <p>4.4⭐⭐⭐⭐</p>
@@ -73,7 +85,7 @@
     </div>
 
     <div class="course-card">
-        <img src="./Udemy-clone/images/sale image4.avif"alt="sale image2">
+        <img src="./images/sale image2.avif"alt="sale image2">
         <p>Java Advanced level</p>
     <p>Mark Zuckerburg</p>
     <p>3.6⭐⭐⭐</p>
@@ -81,7 +93,7 @@
     </div>
 
     <div class="course-card">
-        <img src="./Udemy-clone/images/sale image3.avif"alt="sale image3">
+        <img src="./images/sale image3.avif"alt="sale image3">
         <p>Full stack development </p>
     <p>Musk</p>
     <p>4.4⭐⭐⭐⭐</p>
@@ -89,7 +101,7 @@
     </div>
 
     <div class="course-card">
-        <img src="./Udemy-clone/images/sale image4.avif"alt="sale image4">
+        <img src="./images/sale image3.avif"alt="sale image4">
         <p>Backend Development</p>
     <p>Wills smith</p>
     <p>4.2⭐⭐⭐⭐</p>
@@ -131,73 +143,75 @@
 
     <div class="Popular__container">
 
-        <div class="course-card">
-            <img src="./Udemy-clone/images/sale image1.avif" alt="sale image1">
-            <p>python for beginners</p>
-             <p>col mark</p>
-        <p>4.4⭐⭐⭐⭐</p>
-        <p>499 <del>1499</del></p>
-        </div>
-    
-        <div class="course-card">
-            <img src="./Udemy-clone/images/sale image4.avif"alt="sale image2">
-            <p>Java Advanced level</p>
-        <p>Mark Zuckerburg</p>
-        <p>3.6⭐⭐⭐</p>
-        <p>799 <del>1299</del></p>
-        </div>
-    
-        <div class="course-card">
-            <img src="./Udemy-clone/images/sale image3.avif"alt="sale image3">
-            <p>Full stack development </p>
-        <p>Musk</p>
-        <p>4.4⭐⭐⭐⭐</p>
-        <p>999 <del>1999</del></p>
-        </div>
-    
-        <div class="course-card">
-            <img src="./Udemy-clone/images/sale image4.avif"alt="sale image4">
-            <p>Backend Development</p>
-        <p>Wills smith</p>
-        <p>4.2⭐⭐⭐⭐</p>
-        <p>1599 <del>2999</del></p>
-        </div>
-        <div class="course-card">
-            <img src="./Udemy-clone/images/sale image1.avif" alt="sale image1">
-            <p>python for beginners</p>
-             <p>col mark</p>
-        <p>4.4⭐⭐⭐⭐</p>
-        <p>499 <del>1499</del></p>
-        </div>
-    
-        <div class="course-card">
-            <img src="./Udemy-clone/images/sale image4.avif"alt="sale image2">
-            <p>Java Advanced level</p>
-        <p>Mark Zuckerburg</p>
-        <p>3.6⭐⭐⭐</p>
-        <p>799 <del>1299</del></p>
-        </div>
-    
-        <div class="course-card">
-            <img src="./Udemy-clone/images/sale image3.avif"alt="sale image3">
-            <p>Full stack development </p>
-        <p>Musk</p>
-        <p>4.4⭐⭐⭐⭐</p>
-        <p>999 <del>1999</del></p>
-        </div>
-    
-        <div class="course-card">
-            <img src="./Udemy-clone/images/sale image4.avif"alt="sale image4">
-            <p>Backend Development</p>
-        <p>Wills smith</p>
-        <p>4.2⭐⭐⭐⭐</p>
-        <p>1599 <del>2999</del></p>
-        </div>
-
-
-    </div>
-</div>
-
+       
+            <div class="course-card">
+                <img src="./images/sale image1.avif" alt="sale image1">
+                <p>python for beginners</p>
+                 <p>col mark</p>
+            <p>4.4⭐⭐⭐⭐</p>
+            <p>499 <del>1499</del></p>
+            </div>
+        
+            <div class="course-card">
+                <img src="./images/sale image2.avif"alt="sale image2">
+                <p>Java Advanced level</p>
+            <p>Mark Zuckerburg</p>
+            <p>3.6⭐⭐⭐</p>
+            <p>799 <del>1299</del></p>
+            </div>
+        
+            <div class="course-card">
+                <img src="./images/sale image3.avif"alt="sale image3">
+                <p>Full stack development </p>
+            <p>Musk</p>
+            <p>4.4⭐⭐⭐⭐</p>
+            <p>999 <del>1999</del></p>
+            </div>
+        
+            <div class="course-card">
+                <img src="./images/sale image3.avif"alt="sale image4">
+                <p>Backend Development</p>
+            <p>Wills smith</p>
+            <p>4.2⭐⭐⭐⭐</p>
+            <p>1599 <del>2999</del></p>
+            </div>
+        
+            
+                <div class="course-card">
+                    <img src="./images/sale image1.avif" alt="sale image1">
+                    <p>python for beginners</p>
+                     <p>col mark</p>
+                <p>4.4⭐⭐⭐⭐</p>
+                <p>499 <del>1499</del></p>
+                </div>
+            
+                <div class="course-card">
+                    <img src="./images/sale image2.avif"alt="sale image2">
+                    <p>Java Advanced level</p>
+                <p>Mark Zuckerburg</p>
+                <p>3.6⭐⭐⭐</p>
+                <p>799 <del>1299</del></p>
+                </div>
+            
+                <div class="course-card">
+                    <img src="./images/sale image3.avif"alt="sale image3">
+                    <p>Full stack development </p>
+                <p>Musk</p>
+                <p>4.4⭐⭐⭐⭐</p>
+                <p>999 <del>1999</del></p>
+                </div>
+            
+                <div class="course-card">
+                    <img src="./images/sale image3.avif"alt="sale image4">
+                    <p>Backend Development</p>
+                <p>Wills smith</p>
+                <p>4.2⭐⭐⭐⭐</p>
+                <p>1599 <del>2999</del></p>
+                </div>
+            
+                
+            </div>
+            </div>
 
 <!--Footer-->
 

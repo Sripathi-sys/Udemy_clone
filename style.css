@@ -16,6 +16,11 @@ justify-content:Space-between;
 border-bottom:solid black 2px;
 gap:10px;
 align-items:center;
+position:sticky;
+top:0;
+z-index:1;
+
+
 }
 
 .navbar__s1__title{
@@ -37,7 +42,7 @@ align-items:center;
     width:100%;
     display:flex;
 font-size:20px;
-
+background-color:transparent;
 }
 
 .navbar__s2 input:focus{
@@ -50,7 +55,22 @@ font-size:20px;
 align-items:center;
 }
 
+/* My learning */
 
+.mylearning{
+    position:relative;
+cursor:pointer;
+}
+
+.mylearning__popup{
+    position:absolute;
+    border:solid black 2px;
+    background-color:white;
+    padding:10px;
+    top:30px;
+    right:0;
+display:none;
+}
 .categories{
  display:flex;
  justify-content:space-between;
@@ -66,7 +86,16 @@ color:white;
 padding:10px;
     }
 .sale image{
+    position:relative;
  width:150%;   
+}
+
+.sale-image__offer{
+    position:absolute;
+    left:70px;
+    top:300px;
+    border:solid black 2px;
+    padding:20px;
 }
 
 
@@ -148,4 +177,10 @@ flex-basis:25%;
     display:flex;
     justify-content:space-between;
     align-items:center;
+}
+
+
+.mylearning:hover .mylearning__popup{
+    display:block;
+    
 }
